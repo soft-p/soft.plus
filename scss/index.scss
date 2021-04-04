@@ -1,0 +1,11 @@
+@import 'common';
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/aos/dist/aos';
+@import '../node_modules/tiny-slider/dist/tiny-slider';
+
+@import '../fonts/flaticon/flaticon';
+@import 'site/site-base';
+@import 'site/site-navbar';
+@import 'site/site-blocks';
+@import 'custom';

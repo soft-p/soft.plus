@@ -1,0 +1,28 @@
+.contact-icon {
+	vertical-align: bottom;
+	font-size: 1.5em;
+	line-height: 0;
+	margin-right: 0.5rem;
+}
+
+.social-icon {
+	font-size: 1.25em;
+	padding-right: 1em;
+}
+
+.site-blocks-cover::before {
+	background-image: url('../images/cover.jpg') !important;
+	background-position: center !important;
+	background-size: cover !important;
+	filter: brightness(50%);
+}
+
+.portfolio-slider .slide {
+    padding: 10px 15px 20px;
+
+	.image {
+        height: 200px;
+		background: center no-repeat;
+		background-size: 200px;
+	}
+}

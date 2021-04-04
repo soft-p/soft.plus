@@ -8,215 +8,359 @@
 
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="dist/index.css">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <div class="site-wrap">
-        <div class="site-mobile-menu site-navbar-target">
-            <div class="site-mobile-menu-header">
-                <div class="site-mobile-menu-close mt-3">
-                    <span class="icon-close2 js-menu-toggle"></span>
-                </div>
-            </div>
-            <div class="site-mobile-menu-body"></div>
-        </div>
-
-        <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-6 col-xl-2">
-                        <a href="/" class="mb-0">
-                            <img src="images/logo.png" />
-                        </a>
-                    </div>
-
-                    <div class="col-12 col-md-10 d-none d-xl-block">
-                        <nav class="site-navigation position-relative text-right" role="navigation">
-
-                            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                                <li><a href="#home-section" class="nav-link">Home</a></li>
-                                <li><a href="#about-section" class="nav-link">About</a></li>
-                                <li><a href="#services-section" class="nav-link">Services</a></li>
-                                <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
-                                <li><a href="#jobs-section" class="nav-link">Jobs</a></li>
-                                <li><a href="#contact-section" class="nav-link">Contact Us</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-
-                    <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a
-                           href="#" class="site-menu-toggle js-menu-toggle float-right"><span
-                                  class="icon-menu h3"></span></a></div>
-                </div>
-            </div>
-        </header>
-
-        <div class="site-blocks-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade"
-             id="home-section">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-md-8 mt-lg-5 text-center">
-                        <h1 class="mb-5" data-aos="fade-up">
-                            Your solid technology partner
-                        </h1>
-                    </div>
-                </div>
-            </div>
-
-            <a href="#about-section" class="mouse smoothscroll">
-                <span class="mouse-icon">
-                    <span class="mouse-wheel"></span>
-                </span>
-            </a>
-        </div><div class="site-section cta-big-image" id="about-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-12 text-center" data-aos="fade">
-                        <h2 class="section-title mb-3">About soft+</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-                        <figure class="circle-bg">
-                            <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-                        </figure>
-                    </div>
-                    <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-                        <div class="mb-4">
-                            <h3 class="h3 mb-4 text-black">For the next great business</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempora cumque eligendi in
-                                nostrum labore omnis quaerat.</p>
-                        </div>
-        
-                        <div class="mb-4">
-                            <ul class="list-unstyled ul-check success">
-                                <li>Officia quaerat eaque neque</li>
-                                <li>Possimus aut consequuntur incidunt</li>
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>Consectetur adipisicing elit</li>
-                            </ul>
-                        </div>
-        
-                        <p><a href="#contact-section" class="smoothscroll btn btn-primary">Get In Touch</a></p>
-                    </div>
-                </div>
+    <!-- Mobile Menu -->
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
             </div>
         </div>
-        
-        <div class="site-section cta-big-image" id="services-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-12 text-center" data-aos="fade">
-                        <h2 class="section-title mb-3">Services</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="site-section cta-big-image" id="portfolio-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-12 text-center" data-aos="fade">
-                        <h2 class="section-title mb-3">Portfolio</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="site-section cta-big-image" id="jobs-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-12 text-center" data-aos="fade">
-                        <h2 class="section-title mb-3">Jobs</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="site-section cta-big-image" id="contact-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-12 text-center" data-aos="fade">
-                        <h2 class="section-title mb-3">Contact Us</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <h2 class="footer-heading mb-4">Contact Information</h2>
-                                <p>Kyiv, Ukraine</p>
-                                <a href="mailto:contact@soft.plus">contact@soft.plus</a>
-                            </div>
-                            <div class="col-md-3 ml-auto">
-                                <h2 class="footer-heading mb-4">Quick Links</h2>
-                                <ul class="list-unstyled">
-                                    <li><a href="#home-section" class="smoothscroll">Home</a></li>
-                                    <li><a href="#about-section" class="smoothscroll">About</a></li>
-                                    <li><a href="#services-section" class="smoothscroll">Services</a></li>
-                                    <li><a href="#jobs-section" class="smoothscroll">Jobs</a></li>
-                                    <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <h2 class="footer-heading mb-4">Follow Us</h2>
-                                <a href="https://www.facebook.com/www.soft.plus/" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                                <a href="https://www.linkedin.com/company/www-soft-plus" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-                                <!-- <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="row pt-5 mt-5 text-center">
-                    <div class="col-md-12">
-                        <div class="border-top pt-5">
-                            <p>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved |
-                                This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i>
-                                by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
+        <div class="site-mobile-menu-body"></div>
     </div>
-    <!-- .site-wrap -->
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- Header -->
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6 col-xl-2">
+                    <a href="/" class="mb-0 site-logo">
+                        <img src="images/logo-32.png" />
+                    </a>
+                </div>
 
-    <script src="js/main.js"></script>
+                <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <li><a href="#home-section" class="nav-link">Home</a></li>
+                            <li><a href="#about-section" class="nav-link">About</a></li>
+                            <li><a href="#services-section" class="nav-link">Services</a></li>
+                            <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
+                            <li><a href="#contact-section" class="nav-link">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a
+                       href="#" class="site-menu-toggle js-menu-toggle float-right"><span
+                              class="icon-menu h3"></span></a></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cover -->
+    <div class="site-blocks-cover overlay" id="home-section" data-aos="fade">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-8 mt-lg-5 text-center">
+                    <h1 class="mb-5" data-aos="fade-up">
+                        Your solid technology partner
+                    </h1>
+
+                    <div data-aos="fade-up" data-aos-delay="200">
+                        <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="site-section cta-big-image" id="about-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center" data-aos="fade">
+                    <h2 class="section-title mb-3">About soft+</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5" data-aos="fade-up">
+                    <figure class="circle-bg">
+                        <img src="images/cover.jpg" alt="Image" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                    <div class="mb-4">
+                        <h3 class="h3 mb-4 text-black">Your solid technology partner</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempora cumque eligendi in
+                            nostrum labore omnis quaerat.</p>
+                    </div>
+
+                    <div class="mb-4">
+                        <ul class="list-unstyled ul-check success">
+                            <li>Officia quaerat eaque neque</li>
+                            <li>Possimus aut consequuntur incidunt</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Consectetur adipisicing elit</li>
+                        </ul>
+                    </div>
+
+                    <p><a href="#contact-section" class="smoothscroll btn btn-primary">Get In Touch</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="site-section cta-big-image" id="services-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center" data-aos="fade">
+                    <h2 class="section-title mb-3">Services</h2>
+                </div>
+            </div>
+
+            <div class="row align-items-stretch">
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up">
+                    <div class="unit-4">
+                        <div class="unit-4-icon mr-4"><i class="text-primary flaticon-research"></i></div>
+                        <div>
+                            <h3>Research & Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                                eligendi
+                                at.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up"
+                     data-aos-delay="100">
+                    <div class="unit-4">
+                        <div class="unit-4-icon mr-4"><i class="text-primary flaticon-code"></i></div>
+                        <div>
+                            <h3>Software Engineering</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                                eligendi
+                                at.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up"
+                     data-aos-delay="200">
+                    <div class="unit-4">
+                        <div class="unit-4-icon mr-4"><i class="text-primary flaticon-infrastructure"></i></div>
+                        <div>
+                            <h3>Cloud Transformation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                                eligendi
+                                at.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="">
+                    <div class="unit-4">
+                        <div class="unit-4-icon mr-4"><i class="text-primary flaticon-data-analytics"></i></div>
+                        <div>
+                            <h3>Data Analytics</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                                eligendi
+                                at.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up"
+                     data-aos-delay="100">
+                    <div class="unit-4">
+                        <div class="unit-4-icon mr-4"><i class="text-primary flaticon-internet-of-things"></i></div>
+                        <div>
+                            <h3>Internet of Things</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                                eligendi
+                                at.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 aos-init aos-animate" data-aos="fade-up"
+                     data-aos-delay="200">
+                    <div class="unit-4">
+                        <div class="unit-4-icon mr-4"><i class="text-primary flaticon-bitcoin"></i></div>
+                        <div>
+                            <h3>Blockchain</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                                eligendi
+                                at.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="site-section cta-big-image" id="portfolio-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center" data-aos="fade">
+                    <h2 class="section-title mb-3">Portfolio</h2>
+                </div>
+            </div>
+
+            <p class="mx-3" data-aos="fade">
+                Our specialists worked for big name corporations, including:
+            </p>
+
+            <div class="tiny-slider portfolio-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="slide">
+                    <div class="image shadow" style="background-image: url('images/portfolio/microsoft.png');"></div>
+                </div>
+                <div class="slide">
+                    <div class="image shadow" style="background-image: url('images/portfolio/citibank.png');"></div>
+                </div>
+                <div class="slide">
+                    <div class="image shadow" style="background-image: url('images/portfolio/ubs.png');"></div>
+                </div>
+                <div class="slide">
+                    <div class="image shadow" style="background-image: url('images/portfolio/markit.png');"></div>
+                </div>
+                <div class="slide">
+                    <div class="image shadow" style="background-image: url('images/portfolio/danske-bank.png');"></div>
+                </div>
+                <div class="slide">
+                    <div class="image shadow" style="background-image: url('images/portfolio/ascom.png');"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jobs -->
+    <!-- <div class="site-section cta-big-image" id="jobs-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center" data-aos="fade">
+                    <h2 class="section-title mb-3">Jobs</h2>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Contact -->
+    <section class="site-section bg-light" id="contact-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center" data-aos="fade">
+                    <h2 class="section-title mb-3">Contact Us</h2>
+                </div>
+            </div>
+
+            <div class="row bg-white p-5">
+                <div class="col-md-9">
+                    <form action="https://formspree.io/f/xvodozly" method="POST" data-aos="fade">
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="name">Name</label>
+                                <input type="text" id="name" class="form-control" name="name">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="email">Email</label>
+                                <input type="email" id="email" class="form-control" name="email">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="subject">Subject</label>
+                                <input type="subject" id="subject" class="form-control" name="subject">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="7" name="message"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-3 pl-5 pt-4" data-aos="fade-up" data-aos-delay="300">
+                    <p class="mt-2 mb-4">
+                        <i class="contact-icon bi bi-envelope-fill"></i>
+                        <a href="mailto:contact@soft.plus">contact@soft.plus</a>
+                    </p>
+                    <p>
+                        <i class="contact-icon bi bi-telephone-fill"></i>
+                        <a href="tel:+380 93 152 1727">+380 93 152 1727</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2 class="footer-heading mb-4">Contact Information</h2>
+                    <p class="mb-4">
+                        <i class="contact-icon bi bi-geo-alt-fill"></i>
+                        Kyiv, Ukraine
+                    </p>
+                    <p class="mb-4">
+                        <i class="contact-icon bi bi-envelope-fill"></i>
+                        <a href="mailto:contact@soft.plus">contact@soft.plus</a>
+                    </p>
+                    <p class="mb-0">
+                        <i class="contact-icon bi bi-telephone-fill"></i>
+                        <a href="tel:+380 93 152 1727">+380 93 152 1727</a>
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <h2 class="footer-heading mb-4">Quick Links</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#home-section" class="smoothscroll">Home</a></li>
+                        <li><a href="#about-section" class="smoothscroll">About</a></li>
+                        <li><a href="#services-section" class="smoothscroll">Services</a></li>
+                        <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h2 class="footer-heading mb-4">Follow Us</h2>
+                    <a href="https://www.facebook.com/www.soft.plus/" class="social-icon">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/www-soft-plus" class="social-icon">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <!-- <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a> -->
+                </div>
+            </div>
+
+            <div class="row mt-5 text-center">
+                <div class="col-md-12">
+                    <p class="border-top m-0 p-2">
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX0F1D2FVD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-ZX0F1D2FVD');
+    </script>
+
+    <script src="dist/index.js"></script>
 </body>
 
 </html>
