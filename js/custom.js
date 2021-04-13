@@ -200,7 +200,12 @@ jQuery(function () {
 			"mouseDrag": true,
 			controls: false,
 			nav: false,
-			autoplayButtonOutput: false
+			autoplayButtonOutput: false,
+			responsive: {
+				100: {
+					items: 1
+				}
+			},
 		})
 	}
 });
